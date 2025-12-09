@@ -61,33 +61,4 @@ From `main.tf`, the following are created:
 ├── variables.tf       # Input variables (region, instance type, key name, etc.)
 ├── outputs.tf         # Terraform outputs (e.g. EC2 public IP)
 ├── terraform.tfvars   # Your actual values for variables (NOT committed)
-└── READ✅ Prerequisites
-
-Before running this project, make sure you have:
-
-Terraform installed
-Check:terraform -version
-AWS account + IAM user with permissions for:
-
-EC2
-
-VPC / networking
-
-Security groups
-
-AWS credentials configured on your machine:
-
-bash
-Copy code
-aws configure
-This sets:
-
-AWS_ACCESS_KEY_ID
-
-AWS_SECRET_ACCESS_KEY
-
-AWS_DEFAULT_REGION (e.g. ap-south-1)ME.md          # Project documentation
-
-
-
 
