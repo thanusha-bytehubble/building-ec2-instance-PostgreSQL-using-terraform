@@ -1,4 +1,4 @@
-# building-ec2-instance-PostgreSQL-using-terraform/EC2 Instance with Auto-Installed PostgreSQL using Terraform
+# building-ec2-instance-PostgreSQL-using-terraform
 
 This project uses **Terraform** to provision an **Ubuntu EC2 instance** on AWS and automatically:
 
